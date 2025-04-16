@@ -7,6 +7,7 @@
 2. 系統需要具備資料庫
 3. 系統要即時按照隊伍分數進行排序
 4. 系統需要支援下列操作
+5. 可以使用 CMS 如 `directus`
 
 |API|描述|
 |----|----|
@@ -16,7 +17,7 @@
 |/v1/team/update?team_id=<team_id>&team_score=<team_score>|更新隊伍分數|
 
 
-5. teams 的資料結構如下
+6. teams 的資料結構如下
 
 |欄位名稱: 型態|描述|
 |----|----|
@@ -27,3 +28,12 @@
 |date_created: date|建立日期|
 |date_updated: date|更新日期|
 
+7. games 的資料結構如下
+
+|欄位名稱: 型態|描述|
+|----|----|
+|id: int|活動編號|
+|name: str|活動名稱|
+|(常見共同欄位)||
+|date_created: date|建立日期|
+|date_updated: date|更新日期|
