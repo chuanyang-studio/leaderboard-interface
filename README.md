@@ -7,14 +7,7 @@
 2. 系統需要具備資料庫
 3. 系統要即時按照隊伍分數進行排序
 4. 可以使用 CMS 如 `directus`
-5. 系統需要支援下列操作
-
-|API|描述|
-|----|----|
-|/v1/team/add?team_name=<team_name>|增加隊伍|
-|/v1/team/delete?team_id=<team_id>|刪除隊伍|
-|/v1/team/list|列出所有|
-|/v1/team/update?team_id=<team_id>&team_score=<team_score>|更新隊伍分數|
+5. 系統需要支援 API 操作
 
 ## Data Schema
 
