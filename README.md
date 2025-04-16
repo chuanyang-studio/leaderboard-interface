@@ -20,9 +20,10 @@
 
 |欄位名稱: 型態|描述|
 |----|----|
-|team_id: int|隊伍編號|
-|team_name: str|隊伍名稱|
-|team_score: int|隊伍分數|
-|created_at: time|隊伍創立時間|
-|updated_at: time|隊伍更新時間|
+|id: int|隊伍編號|
+|name: str|隊伍名稱|
+|score: int|隊伍分數|
+|(常見共同欄位)||
+|date_created: date|建立日期|
+|date_updated: date|更新日期|
 
