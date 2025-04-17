@@ -18,6 +18,7 @@
 |id: int|隊伍編號|
 |name: str|隊伍名稱|
 |score: int|隊伍分數|
+|game_id: fk|活動編號 (關聯)|
 |(常見共同欄位)||
 |date_created: date|建立日期|
 |date_updated: date|更新日期|
